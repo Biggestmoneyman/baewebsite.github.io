@@ -1,0 +1,44 @@
+body
+{
+    background-color:#1b212c;
+    margin:0;
+    font-family:"Helvetic";
+    background-size:cover;
+}
+.center{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+/*The container*/
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    left:50%;
+    float: left;
+    display: block;
+    color: blue;
+    tex-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: red;/*affects the box colour*/
+    color: green;/*affects the text colour*/
+}
+
+.image_prop{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin:auto;
+    width:150%;
+
+}
+@keyframes fadeInAnimation{
+        0%{opacity: 0;}
+        100%{opacity:1;}
+    }
