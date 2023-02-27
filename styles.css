@@ -1,43 +1,44 @@
-body
-{
+body{
     background-color:#1b212c;
     margin:0;
     font-family:"Helvetic";
     background-size:cover;
+    height:100%;
 }
-.center{
+.logocontainer img{
     display:flex;
     margin-left:auto;
     margin-right:auto;
-    width:50%;
 }
+
 /*The container*/
-.topnav {
+.navbar {
     overflow: hidden;
     background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
-.topnav a {
-    left:50%;
+.navbar a {
     float: left;
-    display: block;
     color: blue;
-    tex-align:center;
+    text-align:center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size:24px;
 }
-.topnav a:hover {
+.navbar a:hover {
     background-color: red;/*affects the box colour*/
     color: green;/*affects the text colour*/
 }
 
-.image_prop{
+.logo_anim{
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     margin:auto;
-    width:150%;
-
 }
+
 @keyframes fadeInAnimation{
         0%{opacity: 0;}
         100%{opacity:1;}
