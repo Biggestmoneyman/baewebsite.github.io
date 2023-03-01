@@ -1,11 +1,13 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles/fonts.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-<div class="center">
+<div class="header center">
     <img class="image_prop"  src="1.gif" alt="test">
 </div>
 <div class="topnav">
@@ -13,11 +15,32 @@
     <a href="#">Link</a>
     <a href="#">Link</a>
 </div>
-<div class="center">
-    <p style="color:white;margin:auto">test</p>
-</div>
-<div class="center">
-    <img style="margin:auto;width:50%;"src="2.png" alt="extra content lol">
+<div class="fansite-body center flex-col mt-3 mb-3">
+    <!-- Intro paragraph -->
+    <div class="fansite-container container mx-auto mb-5 text-justify">
+        <p style="color:white;margin:auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit iaculis eros, lobortis feugiat ligula hendrerit congue. Donec sodales a justo nec vehicula. In vitae mauris eget magna convallis pharetra sed a ipsum. Donec scelerisque risus eget leo egestas posuere. Ut gravida aliquet sollicitudin. Ut blandit velit vitae erat tincidunt venenatis. Nunc suscipit, diam at viverra placerat, metus augue ultricies est, non feugiat tortor diam vitae nisl. Fusce id nisl mollis, convallis risus sit amet, cursus mi. Phasellus porttitor elit vel augue ornare accumsan. Etiam sit amet finibus leo. Suspendisse euismod lacinia pharetra. 
+        </p>
+    </div>
+    <hr class="fansite-divider mb-5"/>
+    <!-- Messages on Kudoboard -->
+    <div class="fansite-container container mx-auto mb-3 text-justify">
+        <h2 class="baefont text-center mx-auto text-white mb-3 uppercase">Kudoboard Messages</h2>
+        <!-- Likely an iframe? `-->
+        <img class="mx-auto w-full" src="2.png" alt="extra content lol">
+    </div>
+    <!-- Art Board -->
+    <div class="fansite-container container mx-auto mb-3 text-justify">
+        <h2 class="baefont text-center mx-auto text-white mb-3 uppercase">Art Board</h2>
+        <!-- See if there's an easy way to host a large image here -->
+        <img class="mx-auto w-full" src="2.png" alt="extra content lol">
+    </div>
+    <!-- Cameo -->
+    <div class="fansite-container container mx-auto mb-3 text-justify">
+        <h2 class="baefont text-center mx-auto text-white mb-3 uppercase">Cameo</h2>
+        <!-- Youtube Embed -->
+        <img class="mx-auto w-full" src="2.png" alt="extra content lol">
+    </div>
 </div>
 </body>
 </html>

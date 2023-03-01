@@ -1,6 +1,6 @@
 body
 {
-    background-color:#1b212c;
+    background-color:#84373B;
     margin:0;
     font-family:"Helvetic";
     background-size:cover;
@@ -9,8 +9,28 @@ body
     display:flex;
     margin-left:auto;
     margin-right:auto;
-    width:50%;
+    width:75%;
 }
+
+/* Fansite styles */
+
+.baefont {
+    /* -webkit-text-stroke: 1px black; */
+    font-family: 'bae_fontregular';
+    font-size: 3rem; /* 48px */
+    line-height: 1;
+}
+.fansite-divider {
+    width: 100%;
+    border-width: 0.25em;
+}
+.fansite-container {
+    border-radius: 1em;
+    border-width: 0.5em;
+    border-color: #D6C062;
+    padding: 0.75rem;
+}
+
 /*The container*/
 .topnav {
     overflow: hidden;
@@ -21,7 +41,7 @@ body
     float: left;
     display: block;
     color: blue;
-    tex-align:center;
+    text-align:center;
     padding: 14px 16px;
     text-decoration: none;
 }
