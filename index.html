@@ -4,25 +4,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-
+<body id="bodyfix">
     <div class="logocontainer">
-        <img class="logo_anim" style="margin-top:-5%;max-width:100%;"src="2.png" alt="extra content lol">
     </div>
 
     <div class="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </div>
-<div style="height: 1600px"></div>
-</body>
-<div style="height: 1600px"></div>
-<img style="margin:auto;width:50%;"src="2.png" alt="extra content lol">
-<div style="height: 1600px"></div>
-</body>
+        <div class="navbar-left">
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+        </div>
+        <img src="1.gif">
 
+    </div>
+<p>test</p>
+<div style="height: 1600px"></div>
+
+<div style="height: 1600px"></div>
+<img style="margin:auto;width:50%;" src="2.png" alt="extra content lol">
+<div style="height: 1600px"></div>
+
+<div id="overlay">
+    <img class="logo-anim" style="margin:auto;" src="2.png" alt="extra content lol">
+    <button class="overlay-btn" onclick="off()">turn off the overlay</button>
+</div>
+
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("bodyfix").style.overflow = "hidden";
+  }
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("bodyfix").style.overflow= "scroll";
+}
+</script>
+</body>
 </html>
